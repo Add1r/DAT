@@ -695,6 +695,47 @@ body {
   position: relative;
 }
 
+.content__part {
+  padding-left: 25px;
+  max-width: 560px;
+}
+
+.content__part > h1 {
+  color: var(--text-primary);
+  font-size: 3.4375rem;
+  font-weight: 300;
+  line-height: 1.2181818182;
+  margin-bottom: 1.875rem;
+}
+
+.content__part > h1 > span {
+  font-weight: 700;
+}
+
+.content__part > h1 > i {
+  margin-left: -25px;
+  font-size: 1.5625rem;
+  color: var(--text-accent);
+  display: inline-block;
+}
+
+.content__part > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.125rem;
+  line-height: 1.2222222222;
+  margin-bottom: 1.5625rem;
+}
+
+.content__button {
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 15px 50px;
+  background: var(--bg-inverse);
+  border-radius: 300px;
+}
+
 .content__img {
   position: absolute;
   right: 0;
