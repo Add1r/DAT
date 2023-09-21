@@ -689,6 +689,7 @@ body {
 .content {
   position: relative;
   min-height: 100vh;
+  padding: 6.25rem 0;
 }
 
 .content__wrap {
@@ -742,7 +743,7 @@ body {
   bottom: 0;
 }
 
-.content__img > img {
+.content__img img {
   border-radius: 18.75rem 0 18.75rem 0;
 }
 
