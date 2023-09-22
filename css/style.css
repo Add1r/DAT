@@ -462,6 +462,10 @@ body {
 }
 
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: radial-gradient(50% 50% at 100% 50%, rgba(231, 78, 19, 0.1) 0%, rgba(231, 78, 19, 0) 100%);
   z-index: 30;
 }
@@ -689,11 +693,11 @@ body {
 .content {
   position: relative;
   min-height: 100vh;
-  padding: 6.25rem 0;
 }
 
 .content__wrap {
-  position: relative;
+  position: absolute;
+  bottom: 20%;
 }
 
 .content__part {
@@ -744,7 +748,8 @@ body {
 }
 
 .content__img img {
-  border-radius: 18.75rem 0 18.75rem 0;
+  max-height: 60vh;
+  border-radius: 200px 0 200px 0;
 }
 
 @media (max-width: 768px) {
