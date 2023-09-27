@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230927151315">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230927152514">
 	<link rel='apple-touch-icon' sizes='180x180' href='img/favico/apple-touch-icon.png'>
 	<link rel='icon' type='image/png' sizes='32x32' href='img/favico/favicon-32x32.png'>
 	<link rel='icon' type='image/png' sizes='16x16' href='img/favico/favicon-16x16.png'>
@@ -438,14 +438,21 @@
 					</section>
 					<section class="footer__contacts">
 						<h3>Контакти</h3>
-						<div id="call-back" class="footer__back-call call-back">
+						<div class="footer__back-call call-back">
 							<i class="radius-icon icon-phone"></i>
 							<div class="call-back__content">
-								<p>
-									<a href="tel:+380671150058">+38 (067) 115 00 58</a>
-									<i class="icon-arrow-down"></i>
-								</p>
-								<p>Замовити зворотній зв’язок</p>
+								<button><span>+38 (067) 115 00 58</span><i class="icon-arrow-down"></i></button>
+								<button class="call-back__button">Замовити зворотній зв’язок</button>
+								<div class="call-back__more">
+									<i class="radius-icon icon-phone"></i>
+									<div class="call-back__content">
+										<button><span>+38 (067) 115 00 58</span><i class="icon-arrow-down"></i></button>
+										<button class="call-back__button">Замовити зворотній
+											зв’язок</button>
+										<a href="tel:+380501150058">+38 (050) 115 00 58</a>
+										<a href="tel:+380671150058">+38 (067) 115 00 58</a>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="footer__mail">
@@ -603,7 +610,7 @@
 			preloader();
 		</script>
 	</div>
-	<script src="js/app.min.js?_v=20230927151315"></script>
+	<script src="js/app.min.js?_v=20230927152514"></script>
 </body>
 
 </html>
