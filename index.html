@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230922125303">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230927142156">
 	<link rel='apple-touch-icon' sizes='180x180' href='img/favico/apple-touch-icon.png'>
 	<link rel='icon' type='image/png' sizes='32x32' href='img/favico/favicon-32x32.png'>
 	<link rel='icon' type='image/png' sizes='16x16' href='img/favico/favicon-16x16.png'>
@@ -87,14 +87,21 @@
 							<input type="text" name="text" class="search" placeholder="Пошук">
 							<button class="icon-search"></button>
 						</form>
-						<div id="call-back" class="header__back-call call-back">
+						<div class="header__back-call call-back">
 							<i class="radius-icon icon-phone"></i>
 							<div class="call-back__content">
-								<p>
-									<span>+38 (067) 115 00 58</span>
-									<i class="icon-arrow-down"></i>
-								</p>
-								<p>Замовити зворотній зв’язок</p>
+								<button><span>+38 (067) 115 00 58</span><i class="icon-arrow-down"></i></button>
+								<button class="call-back__button">Замовити зворотній зв’язок</button>
+								<div class="call-back__more">
+									<i class="radius-icon icon-phone"></i>
+									<div class="call-back__content">
+										<button><span>+38 (067) 115 00 58</span><i class="icon-arrow-down"></i></button>
+										<button class="call-back__button">Замовити зворотній
+											зв’язок</button>
+										<a href="tel:+380501150058">+38 (050) 115 00 58</a>
+										<a href="tel:+380671150058">+38 (067) 115 00 58</a>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="header__cart">
@@ -130,18 +137,16 @@
 			<section class="content">
 				<picture class="content__image-ibg"><img src="img/harvest.png" alt="farmer">
 				</picture>
-				<div class="content__img">
-					<picture><source srcset="img/tomatoes-in-a-greenhouse.webp" type="image/webp"><img src="img/tomatoes-in-a-greenhouse.jpg" alt="tomatoes in a greenhouse"></picture>
-				</div>
 				<div class="content__container">
-					<div class="content__wrap">
-						<div class="content__part text-content">
-							<h1><i class="icon-leaf-logo"></i><span>Аграрний</span> інтернет-магазин
-							</h1>
-							<p>Основна сфера діяльності – дистрибуція насіння, засобів захисту
-								рослин, мінеральних макро - та мікродобрив</p>
-							<a href="#" class="text-content__button">Про компанію</a>
-						</div>
+					<div class="content__img">
+						<picture><source srcset="img/tomatoes-in-a-greenhouse.webp" type="image/webp"><img src="img/tomatoes-in-a-greenhouse.png" alt="tomatoes in a greenhouse"></picture>
+					</div>
+					<div class="content__part text-content">
+						<h1><i class="icon-leaf-logo"></i><span>Аграрний</span> інтернет-магазин
+						</h1>
+						<p>Основна сфера діяльності – дистрибуція насіння, засобів захисту рослин,
+							мінеральних макро - та мікродобрив</p>
+						<a href="#" class="text-content__button">Про компанію</a>
 					</div>
 				</div>
 			</section>
@@ -149,7 +154,7 @@
 				<div class="about-us__container">
 					<div class="about-us__wrap">
 						<div class="about-us__img">
-							<picture><source srcset="img/aboutUs/about-us.webp" type="image/webp"><img src="img/aboutUs/about-us.webp" alt="planting"></picture>
+							<picture><source srcset="img/aboutUs/about-us.webp" type="image/webp"><img src="img/aboutUs/about-us.png" alt="planting"></picture>
 						</div>
 						<div class="about-us__part text-content">
 							<h2 class="about-us__title"><i class="icon-leaf-logo"></i> Про нас </h2>
@@ -185,6 +190,7 @@
 								<!-- Слайд -->
 								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
 										<div class="product-item__img">
 											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
@@ -208,6 +214,7 @@
 								</div>
 								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
 										<div class="product-item__img">
 											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
@@ -231,6 +238,7 @@
 								</div>
 								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
 										<div class="product-item__img">
 											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
@@ -254,6 +262,7 @@
 								</div>
 								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
 										<div class="product-item__img">
 											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
@@ -277,6 +286,7 @@
 								</div>
 								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
 										<div class="product-item__img">
 											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
@@ -300,6 +310,7 @@
 								</div>
 								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
 										<div class="product-item__img">
 											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
@@ -323,6 +334,7 @@
 								</div>
 								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
 										<div class="product-item__img">
 											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
@@ -358,7 +370,7 @@
 			</section>
 		</main>
 		<footer class="footer">
-			<a href="#top" class="navigation-button">
+			<a href="#" data-goto="#top" class="navigation-button">
 				<i class="icon-arrow"></i>
 			</a>
 			<div class="footer__container">
@@ -430,7 +442,7 @@
 							<i class="radius-icon icon-phone"></i>
 							<div class="call-back__content">
 								<p>
-									<span>+38 (067) 115 00 58</span>
+									<a href="tel:+380671150058">+38 (067) 115 00 58</a>
 									<i class="icon-arrow-down"></i>
 								</p>
 								<p>Замовити зворотній зв’язок</p>
@@ -591,7 +603,7 @@
 			preloader();
 		</script>
 	</div>
-	<script src="js/app.min.js?_v=20230922125303"></script>
+	<script src="js/app.min.js?_v=20230927142156"></script>
 </body>
 
 </html>
