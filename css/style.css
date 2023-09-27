@@ -1197,6 +1197,12 @@ body {
     color: #fff;
   }
 
+  .call-back__more > .call-back__content > a:hover {
+    color: var(--text-accent);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+
   .call-back:hover .call-back__more {
     visibility: visible;
     opacity: 1;
