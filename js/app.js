@@ -3586,6 +3586,31 @@
             },
             on: {}
         });
+        if (document.querySelector(".swiper-partners")) new swiper_core_Swiper(".swiper-partners", {
+            modules: [ Navigation, Autoplay, Pagination ],
+            observer: true,
+            observeParents: true,
+            centerInsufficientSlides: true,
+            loop: true,
+            slidesPerView: 4,
+            spaceBetween: 30,
+            autoHeight: true,
+            speed: 800,
+            effect: "fade",
+            autoplay: {
+                delay: 3e3,
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next"
+            },
+            on: {}
+        });
     }
     window.addEventListener("load", (function(e) {
         initSliders();
