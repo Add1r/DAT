@@ -3584,6 +3584,30 @@
                 prevEl: ".swiper-button-prev",
                 nextEl: ".swiper-button-next"
             },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    autoHeight: true
+                },
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    autoHeight: true
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                1199: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                }
+            },
             on: {}
         });
         if (document.querySelector(".swiper-partners")) new swiper_core_Swiper(".swiper-partners", {
@@ -3592,7 +3616,7 @@
             observeParents: true,
             centerInsufficientSlides: true,
             loop: true,
-            slidesPerView: 4,
+            slidesPerView: 6,
             spaceBetween: 30,
             autoHeight: true,
             speed: 800,
@@ -3608,6 +3632,26 @@
             navigation: {
                 prevEl: ".swiper-button-prev",
                 nextEl: ".swiper-button-next"
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                    autoHeight: true
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                    autoHeight: true
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+                992: {
+                    slidesPerView: 6,
+                    spaceBetween: 20
+                }
             },
             on: {}
         });
@@ -3677,6 +3721,14 @@
     window.addEventListener("scroll", (function() {
         scrollpos = window.scrollY;
         if (scrollpos >= scrollChange) add_class_on_scroll(); else remove_class_on_scroll();
+    }));
+    const happyFarmerButton = document.querySelector(".happy-farmer__more-button");
+    const happyFarmerContent = document.querySelector(".happy-farmer__content");
+    console.log(happyFarmerButton);
+    console.log(happyFarmerContent);
+    happyFarmerButton.addEventListener("click", (function() {
+        happyFarmerContent.classList.toggle("happy-farmer__max-height");
+        happyFarmerButton.classList.toggle("happy-farmer__more-button--active");
     }));
     window["FLS"] = true;
     isWebp();
