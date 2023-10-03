@@ -3724,11 +3724,17 @@
     }));
     const happyFarmerButton = document.querySelector(".happy-farmer__more-button");
     const happyFarmerContent = document.querySelector(".happy-farmer__content");
-    console.log(happyFarmerButton);
-    console.log(happyFarmerContent);
     happyFarmerButton.addEventListener("click", (function() {
         happyFarmerContent.classList.toggle("happy-farmer__max-height");
         happyFarmerButton.classList.toggle("happy-farmer__more-button--active");
+    }));
+    const mobileIconMenu = document.querySelector(".mobile-icon");
+    const headerMenuWrap = document.querySelectorAll(".header__links-wrap a");
+    mobileIconMenu.addEventListener("click", (function() {
+        for (var i = 0; i < headerMenuWrap.length; i++) {
+            let element = headerMenuWrap[i];
+            element.classList.toggle("animated-show-menu");
+        }
     }));
     window["FLS"] = true;
     isWebp();
