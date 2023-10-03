@@ -3728,7 +3728,7 @@
         happyFarmerContent.classList.toggle("happy-farmer__max-height");
         happyFarmerButton.classList.toggle("happy-farmer__more-button--active");
     }));
-    const mobileIconMenu = document.querySelector(".mobile-icon");
+    const mobileIconMenu = document.querySelector(".header__links-mobile-show");
     const headerMenuWrap = document.querySelectorAll(".header__links-wrap a");
     mobileIconMenu.addEventListener("click", (function() {
         for (var i = 0; i < headerMenuWrap.length; i++) {
