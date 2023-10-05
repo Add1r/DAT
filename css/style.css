@@ -1506,6 +1506,12 @@ body {
 }
 
 @media (max-width: 1199px) {
+  .wing,
+  .wing-small,
+  .wing-rotate {
+    display: none;
+  }
+
   .mobile-icon {
     display: inline-block;
   }
