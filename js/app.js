@@ -3569,7 +3569,6 @@
             observeParents: true,
             slidesPerView: 4,
             spaceBetween: 0,
-            autoHeight: true,
             speed: 800,
             effect: "fade",
             autoplay: {
@@ -3616,7 +3615,7 @@
             observeParents: true,
             centerInsufficientSlides: true,
             loop: true,
-            slidesPerView: 6,
+            slidesPerView: 2,
             spaceBetween: 30,
             autoHeight: true,
             speed: 800,
@@ -3639,17 +3638,24 @@
                     spaceBetween: 20,
                     autoHeight: true
                 },
+                440: {
+                    slidesPerView: 3
+                },
+                540: {
+                    slidesPerView: 4
+                },
                 640: {
-                    slidesPerView: 2,
-                    spaceBetween: 0,
-                    autoHeight: true
+                    slidesPerView: 4,
+                    spaceBetween: 0
                 },
                 768: {
-                    slidesPerView: 3,
-                    spaceBetween: 20
+                    slidesPerView: 5
                 },
                 992: {
-                    slidesPerView: 6,
+                    slidesPerView: 6
+                },
+                1199: {
+                    slidesPerView: 4,
                     spaceBetween: 20
                 }
             },
