@@ -3730,7 +3730,7 @@
     }));
     const happyFarmerButton = document.querySelector(".happy-farmer__more-button");
     const happyFarmerContent = document.querySelector(".happy-farmer__content");
-    happyFarmerButton.addEventListener("click", (function() {
+    if (happyFarmerButton !== null) happyFarmerButton.addEventListener("click", (function() {
         happyFarmerContent.classList.toggle("happy-farmer__max-height");
         happyFarmerButton.classList.toggle("happy-farmer__more-button--active");
     }));
