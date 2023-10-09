@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Home</title>
+	<title>catalog-v2</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
@@ -16,7 +16,7 @@
 </head>
 
 <body>
-	<div class="wrapper">
+	<div class="wrapper catalog">
 		<header id="top" class="header">
 			<span class="blur-mask"></span>
 			<div class="header__nav">
@@ -141,268 +141,144 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="content">
-				<picture class="content__image-ibg"><img src="img/harvest.png" alt="farmer">
-				</picture>
-				<div class="content__container">
-					<div class="content__img">
-						<picture><source srcset="img/wing.webp" type="image/webp"><img class="wing" src="img/wing.png" alt="leaf"></picture>
-						<picture><source srcset="img/wing-rotate.webp" type="image/webp"><img class="wing-rotate" src="img/wing-rotate.png" alt="leaf"></picture>
-						<picture><source srcset="img/wing-small.webp" type="image/webp"><img class="wing-small" src="img/wing-small.png" alt="leaf"></picture>
-						<picture><source srcset="img/tomatoes-in-a-greenhouse.webp" type="image/webp"><img src="img/tomatoes-in-a-greenhouse.png" alt="tomatoes in a greenhouse"></picture>
-					</div>
-					<div class="content__part text-content">
-						<h1><i class="icon-leaf-logo"></i><span>Аграрний</span> <br>
-							інтернет-магазин </h1>
-						<p>Основна сфера діяльності – дистрибуція насіння, засобів захисту рослин,
-							мінеральних макро - та мікродобрив</p>
-						<a href="#" class="text-content__button">Про компанію</a>
-					</div>
-					<div class="text-content__button--mobile">
-						<a href="#" class="text-content__button ">Про компанію</a>
-					</div>
-				</div>
-			</section>
-			<section class="about-us">
-				<span class="blur-mask about-us__blur-mask--right"></span>
-				<span class="blur-mask about-us__blur-mask--left-center"></span>
-				<div class="about-us__container">
-					<div class="about-us__wrap">
-						<div class="about-us__img">
-							<picture><source srcset="img/wing.webp" type="image/webp"><img class="wing about-us-wing" src="img/wing.png" alt="leaf"></picture>
-							<picture><source srcset="img/wing-small.webp" type="image/webp"><img class="wing-small about-us-wing-small" src="img/wing-small.png" alt="leaf"></picture>
-							<picture><source srcset="img/aboutUs/about-us.webp" type="image/webp"><img src="img/aboutUs/about-us.png" alt="planting"></picture>
+			<section class="plants-protecting">
+				<span class="blur-mask plants-protecting__blur-mask"></span>
+				<div class="plants-protecting__container">
+					<div class="plants-protecting__wrap">
+						<div class="plants-protecting__nav site-map">
+							<ul>
+								<li><a href="#">Головна</a></li>
+								<li><a href="#">Каталог</a></li>
+								<li class="site-map-active"><a href="#">Засоби захисту рослин</a>
+								</li>
+							</ul>
 						</div>
-						<div class="about-us__part text-content">
-							<h2 class="about-us__title"><i class="icon-leaf-logo"></i> Про нас </h2>
-							<p><span>«Компанія ТОВ “ДАМАР АГРОТРЕЙД”</span> — молода команда, яка
-								з’явилась на аграрному ринку у 2020 році. Ми не боїмось труднощів і
-								викликів. Тому навіть складний ковідний період, світова пандемія не
-								стали на заваді успішному старту.</p>
-							<p>Отже, <span>ми — сміливі, ми — драйвові</span>, ми — ті, що
-								розвивають рослинництво та допомагають ставати успішними тисячам
-								вітчизняних аграріїв. </p>
-							<p><span>Бачення:</span> компанія ТОВ “ДАМАР АГРОТРЕЙД” тримає курс на
-								підвищення престижності, довіри до засобів захисту рослин made in
-								UA. Прагнемо, аби в кожному регіоні України наш споживач мав доступ
-								до якісної продукції та консалтингу від фахівців команди.</p>
-							<p> <span>Місія:</span> усе продуктове портфоліо, консультативні послуги
-								ТОВ “ДАМАР АГРОТРЕЙД” направлені на підвищення рентабельності
-								рослинництва в мінливих кліматичних умовах України. Також ставимо
-								собі завдання підвищувати обізнаність клієнтів щодо сучасних методів
-								ведення рослинництва... </p>
-							<div class="about-us__button-wrap">
-								<a href="#" class="text-content__button">Докладніше</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="new-product">
-				<span class="blur-mask new-product__blur-mask--right-bottom-green"></span>
-				<span class="blur-mask new-product__blur-mask--left-bottom-green"></span>
-				<div class="new-product__container">
-					<div class="new-product__wrap">
-						<h2 class="new-product__title"><i class="icon-leaf-logo"></i> Новинки <i class="icon-leaf-logo rotate"></i></h2>
-						<!-- Оболонка слайдера -->
-						<div class="new-product__slider swiper">
-							<!-- Частина слайдера, що рухається -->
-							<div class="new-product__wrapper swiper-wrapper">
-								<!-- Слайд -->
-								<div class="new-product__slide swiper-slide">
-									<article class="product-item">
-										<a href="#" class="product-item__link"></a>
-										<i class="icon-comparison"></i>
-										<div class="product-item__img">
-											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
-										</div>
-										<div class="product-item__characteristics">
-											<div class="product-item__characteristics-title">
-												<h4>Петунія Софістика F1</h4>
-												<p>В наявності</p>
-											</div>
-											<div class="product-item__characteristics-buy">
-												<div class="product-item__characteristics-price">
-													<p><span>20 грн</span></p>
-													<p>1 шт</p>
-												</div>
-												<div class="product-item__cart-wrap">
-													<i class="icon-shopping-cart radius-icon"></i>
-												</div>
-											</div>
-										</div>
-									</article>
+						<h2 class="plants-protecting__title"><i class="icon-leaf-logo"></i> Засоби
+							захисту рослин <i class="icon-leaf-logo rotate"></i></h2>
+						<div class="plants-protecting__page">
+							<div class="plants-protectiong__filter filter-items">
+								<div class="filter-items__count">
+									<span>Показано 621 товарів</span>
 								</div>
-								<div class="new-product__slide swiper-slide">
-									<article class="product-item">
-										<a href="#" class="product-item__link"></a>
-										<i class="icon-comparison"></i>
-										<div class="product-item__img">
-											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
-										</div>
-										<div class="product-item__characteristics">
-											<div class="product-item__characteristics-title">
-												<h4>Петунія Софістика F1</h4>
-												<p>В наявності</p>
-											</div>
-											<div class="product-item__characteristics-buy">
-												<div class="product-item__characteristics-price">
-													<p><span>20 грн</span></p>
-													<p>1 шт</p>
-												</div>
-												<div class="product-item__cart-wrap">
-													<i class="icon-shopping-cart radius-icon"></i>
-												</div>
-											</div>
-										</div>
-									</article>
+								<div class="filter-items__type">
+									<ul class="filter-items__body">
+										<li class="filter-items__active">Гербіциди<span>(229)</span>
+										</li>
+										<li>Фунгіциди<span>(29)</span></li>
+										<li>Інсектициди<span>(9)</span></li>
+										<li>Десиканти<span>(209)</span></li>
+										<li>Протруювачі<span>(120)</span></li>
+										<li>Ад’юванти<span>(215)</span></li>
+										<li>Родентициди<span>(410)</span></li>
+										<li>Ретарданти<span>(30)</span></li>
+									</ul>
 								</div>
-								<div class="new-product__slide swiper-slide">
-									<article class="product-item">
-										<a href="#" class="product-item__link"></a>
-										<i class="icon-comparison"></i>
-										<div class="product-item__img">
-											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
+								<div class="filter-items__char">
+									<h3>Фільтр</h3>
+									<div class="filter-items__char-prod">
+										<div class="filter-items__char-part">
+											<h4>Виробник</h4>
+											<ul>
+												<li><input id="Nertus" type="checkbox" name="prod" value="Nertus">
+													<label for="Nertus">Нертус</label>
+												</li>
+												<li><input id="Adama" type="checkbox" name="prod" value="Adama">
+													<label for="Adama">Адама</label>
+												</li>
+												<li><input id="Ukraine" type="checkbox" name="prod" value="Ukraine">
+													<label for="Ukraine">Україна</label>
+												</li>
+												<li><input id="Baier" type="checkbox" name="prod" value="Baier">
+													<label for="Baier">Байєр</label>
+												</li>
+												<li><input id="GZD" type="checkbox" name="prod" value="GZD">
+													<label for="GZD">ГЗД</label>
+												</li>
+												<li><input id="Shtefes" type="checkbox" name="prod" value="Shtefes">
+													<label for="Shtefes">Штефес</label>
+												</li>
+											</ul>
 										</div>
-										<div class="product-item__characteristics">
-											<div class="product-item__characteristics-title">
-												<h4>Петунія Софістика F1</h4>
-												<p>В наявності</p>
-											</div>
-											<div class="product-item__characteristics-buy">
-												<div class="product-item__characteristics-price">
-													<p><span>20 грн</span></p>
-													<p>1 шт</p>
-												</div>
-												<div class="product-item__cart-wrap">
-													<i class="icon-shopping-cart radius-icon"></i>
-												</div>
-											</div>
+										<div class="filter-items__char-part">
+											<h4>Культура</h4>
+											<ul>
+												<li><input id="Sunflower" type="checkbox" name="culture" value="Sunflower">
+													<label for="Sunflower">Соняшник</label>
+												</li>
+												<li><input id="Corn" type="checkbox" name="culture" value="Corn">
+													<label for="Corn">Кукурудза</label>
+												</li>
+												<li><input id="Wheat" type="checkbox" name="culture" value="Wheat">
+													<label for="Wheat">Пшениця</label>
+												</li>
+												<li><input id="Barley" type="checkbox" name="culture" value="Barley">
+													<label for="Barley">Ячмінь</label>
+												</li>
+												<li><input id="Turnip" type="checkbox" name="culture" value="Turnip">
+													<label for="Turnip">Ріпак</label>
+												</li>
+												<li><input id="Soy" type="checkbox" name="culture" value="Soy">
+													<label for="Soy">Соя</label>
+												</li>
+												<li><input id="Pea" type="checkbox" name="culture" value="Pea">
+													<label for="Pea">Горох</label>
+												</li>
+												<li><input id="beans" type="checkbox" name="culture" value="beans">
+													<label for="beans">Боби</label>
+												</li>
+												<li><input id="Mustard" type="checkbox" name="culture" value="Mustard">
+													<label for="Mustard">Гірчиця</label>
+												</li>
+												<li><input id="Rye" type="checkbox" name="culture" value="Rye">
+													<label for="Rye">Житняк</label>
+												</li>
+												<li><input id="Bean" type="checkbox" name="culture" value="Bean">
+													<label for="Bean">Квасоля</label>
+												</li>
+												<li><input id="Alfalfa" type="checkbox" name="culture" value="Alfalfa">
+													<label for="Alfalfa">Люцерна</label>
+												</li>
+											</ul>
 										</div>
-									</article>
-								</div>
-								<div class="new-product__slide swiper-slide">
-									<article class="product-item">
-										<a href="#" class="product-item__link"></a>
-										<i class="icon-comparison"></i>
-										<div class="product-item__img">
-											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
+										<div class="filter-items__char-part">
+											<h4>Кількість</h4>
+											<ul>
+												<li><input id="1" type="checkbox" name="prod" value="1">
+													<label for="1">1</label>
+												</li>
+												<li><input id="2" type="checkbox" name="prod" value="2">
+													<label for="2">2</label>
+												</li>
+												<li><input id="3" type="checkbox" name="prod" value="3">
+													<label for="3">3</label>
+												</li>
+												<li><input id="4" type="checkbox" name="prod" value="4">
+													<label for="4">4</label>
+												</li>
+												<li><input id="5" type="checkbox" name="prod" value="5">
+													<label for="5">5</label>
+												</li>
+												<li><input id="6" type="checkbox" name="prod" value="6">
+													<label for="6">6</label>
+												</li>
+											</ul>
 										</div>
-										<div class="product-item__characteristics">
-											<div class="product-item__characteristics-title">
-												<h4>Петунія Софістика F1</h4>
-												<p>В наявності</p>
-											</div>
-											<div class="product-item__characteristics-buy">
-												<div class="product-item__characteristics-price">
-													<p><span>20 грн</span></p>
-													<p>1 шт</p>
-												</div>
-												<div class="product-item__cart-wrap">
-													<i class="icon-shopping-cart radius-icon"></i>
-												</div>
-											</div>
-										</div>
-									</article>
-								</div>
-								<div class="new-product__slide swiper-slide">
-									<article class="product-item">
-										<a href="#" class="product-item__link"></a>
-										<i class="icon-comparison"></i>
-										<div class="product-item__img">
-											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
-										</div>
-										<div class="product-item__characteristics">
-											<div class="product-item__characteristics-title">
-												<h4>Петунія Софістика F1</h4>
-												<p>В наявності</p>
-											</div>
-											<div class="product-item__characteristics-buy">
-												<div class="product-item__characteristics-price">
-													<p><span>20 грн</span></p>
-													<p>1 шт</p>
-												</div>
-												<div class="product-item__cart-wrap">
-													<i class="icon-shopping-cart radius-icon"></i>
-												</div>
-											</div>
-										</div>
-									</article>
-								</div>
-								<div class="new-product__slide swiper-slide">
-									<article class="product-item">
-										<a href="#" class="product-item__link"></a>
-										<i class="icon-comparison"></i>
-										<div class="product-item__img">
-											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
-										</div>
-										<div class="product-item__characteristics">
-											<div class="product-item__characteristics-title">
-												<h4>Петунія Софістика F1</h4>
-												<p>В наявності</p>
-											</div>
-											<div class="product-item__characteristics-buy">
-												<div class="product-item__characteristics-price">
-													<p><span>20 грн</span></p>
-													<p>1 шт</p>
-												</div>
-												<div class="product-item__cart-wrap">
-													<i class="icon-shopping-cart radius-icon"></i>
-												</div>
-											</div>
-										</div>
-									</article>
-								</div>
-								<div class="new-product__slide swiper-slide">
-									<article class="product-item">
-										<a href="#" class="product-item__link"></a>
-										<i class="icon-comparison"></i>
-										<div class="product-item__img">
-											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
-										</div>
-										<div class="product-item__characteristics">
-											<div class="product-item__characteristics-title">
-												<h4>Петунія Софістика F1</h4>
-												<p>В наявності</p>
-											</div>
-											<div class="product-item__characteristics-buy">
-												<div class="product-item__characteristics-price">
-													<p><span>20 грн</span></p>
-													<p>1 шт</p>
-												</div>
-												<div class="product-item__cart-wrap">
-													<i class="icon-shopping-cart radius-icon"></i>
-												</div>
-											</div>
-										</div>
-									</article>
+									</div>
 								</div>
 							</div>
-							<!-- Якщо потрібна пагінація -->
-							<div class="swiper-pagination"></div>
-							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
-							<button type="button" class="swiper-button-prev icon-arrow"></button>
-							<button type="button" class="swiper-button-next icon-arrow"></button>
-							<!-- Якщо потрібен скролбар -->
-							<div class="swiper-scrollbar"></div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="new-product new-product--stock">
-				<span class="blur-mask new-product__blur-mask--right"></span>
-				<span class="blur-mask new-product__blur-mask--left"></span>
-				<span class="blur-mask new-product__blur-mask--right-bottom-green"></span>
-				<span class="blur-mask new-product__blur-mask--left-bottom-green"></span>
-				<div class="new-product__container">
-					<div class="new-product__wrap">
-						<h2 class="new-product__title"><i class="icon-leaf-logo"></i> Акції <i class="icon-leaf-logo rotate"></i></h2>
-						<!-- Оболонка слайдера -->
-						<div class="new-product__slider swiper">
-							<!-- Частина слайдера, що рухається -->
-							<div class="new-product__wrapper swiper-wrapper">
-								<!-- Слайд -->
-								<div class="new-product__slide swiper-slide">
+							<div class="plants-protecting__articles">
+								<div class="plants-protecting__articles-select">
+									<select name="sort-by">
+										<option disabled selected>Сортувати за</option>
+										<option value="1">Синий</option>
+										<option value="2">Зеленый</option>
+										<option value="3">Желтый</option>
+										<option value="4">Красный</option>
+										<option value="5">Оранжевый</option>
+										<option value="6">Черный</option>
+									</select>
+								</div>
+								<div class="plants-protecting__articles-wrap">
 									<article class="product-item">
 										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
@@ -425,8 +301,6 @@
 											</div>
 										</div>
 									</article>
-								</div>
-								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
 										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
@@ -449,8 +323,6 @@
 											</div>
 										</div>
 									</article>
-								</div>
-								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
 										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
@@ -473,8 +345,6 @@
 											</div>
 										</div>
 									</article>
-								</div>
-								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
 										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
@@ -497,8 +367,6 @@
 											</div>
 										</div>
 									</article>
-								</div>
-								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
 										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
@@ -521,8 +389,6 @@
 											</div>
 										</div>
 									</article>
-								</div>
-								<div class="new-product__slide swiper-slide">
 									<article class="product-item">
 										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
@@ -545,8 +411,116 @@
 											</div>
 										</div>
 									</article>
-								</div>
-								<div class="new-product__slide swiper-slide">
+									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
+										<i class="icon-comparison"></i>
+										<div class="product-item__img">
+											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
+										</div>
+										<div class="product-item__characteristics">
+											<div class="product-item__characteristics-title">
+												<h4>Петунія Софістика F1</h4>
+												<p>В наявності</p>
+											</div>
+											<div class="product-item__characteristics-buy">
+												<div class="product-item__characteristics-price">
+													<p><span>20 грн</span></p>
+													<p>1 шт</p>
+												</div>
+												<div class="product-item__cart-wrap">
+													<i class="icon-shopping-cart radius-icon"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
+										<i class="icon-comparison"></i>
+										<div class="product-item__img">
+											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
+										</div>
+										<div class="product-item__characteristics">
+											<div class="product-item__characteristics-title">
+												<h4>Петунія Софістика F1</h4>
+												<p>В наявності</p>
+											</div>
+											<div class="product-item__characteristics-buy">
+												<div class="product-item__characteristics-price">
+													<p><span>20 грн</span></p>
+													<p>1 шт</p>
+												</div>
+												<div class="product-item__cart-wrap">
+													<i class="icon-shopping-cart radius-icon"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
+										<i class="icon-comparison"></i>
+										<div class="product-item__img">
+											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
+										</div>
+										<div class="product-item__characteristics">
+											<div class="product-item__characteristics-title">
+												<h4>Петунія Софістика F1</h4>
+												<p>В наявності</p>
+											</div>
+											<div class="product-item__characteristics-buy">
+												<div class="product-item__characteristics-price">
+													<p><span>20 грн</span></p>
+													<p>1 шт</p>
+												</div>
+												<div class="product-item__cart-wrap">
+													<i class="icon-shopping-cart radius-icon"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
+										<i class="icon-comparison"></i>
+										<div class="product-item__img">
+											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
+										</div>
+										<div class="product-item__characteristics">
+											<div class="product-item__characteristics-title">
+												<h4>Петунія Софістика F1</h4>
+												<p>В наявності</p>
+											</div>
+											<div class="product-item__characteristics-buy">
+												<div class="product-item__characteristics-price">
+													<p><span>20 грн</span></p>
+													<p>1 шт</p>
+												</div>
+												<div class="product-item__cart-wrap">
+													<i class="icon-shopping-cart radius-icon"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="product-item">
+										<a href="#" class="product-item__link"></a>
+										<i class="icon-comparison"></i>
+										<div class="product-item__img">
+											<picture><source srcset="img/new-product/petuniya.webp" type="image/webp"><img src="img/new-product/petuniya.png" alt="petuniya"></picture>
+										</div>
+										<div class="product-item__characteristics">
+											<div class="product-item__characteristics-title">
+												<h4>Петунія Софістика F1</h4>
+												<p>В наявності</p>
+											</div>
+											<div class="product-item__characteristics-buy">
+												<div class="product-item__characteristics-price">
+													<p><span>20 грн</span></p>
+													<p>1 шт</p>
+												</div>
+												<div class="product-item__cart-wrap">
+													<i class="icon-shopping-cart radius-icon"></i>
+												</div>
+											</div>
+										</div>
+									</article>
 									<article class="product-item">
 										<a href="#" class="product-item__link"></a>
 										<i class="icon-comparison"></i>
@@ -571,146 +545,41 @@
 									</article>
 								</div>
 							</div>
-							<!-- Якщо потрібна пагінація -->
-							<div class="swiper-pagination"></div>
-							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
-							<button type="button" class="swiper-button-prev icon-arrow"></button>
-							<button type="button" class="swiper-button-next icon-arrow"></button>
-							<!-- Якщо потрібен скролбар -->
-							<div class="swiper-scrollbar"></div>
-						</div>
-					</div>
-					<div class="new-product__button">
-						<a href="#" class="text-content__button">Дивитися усі товари</a>
-					</div>
-				</div>
-			</section>
-			<section class="partners">
-				<span class="blur-mask partners__blur-mask"></span>
-				<div class="partners__container">
-					<div class="partners__wrap">
-						<h2 class="partners__title"><i class="icon-leaf-logo"></i> Партнери <i class="icon-leaf-logo rotate"></i></h2>
-						<!-- Оболонка слайдера -->
-						<div class="partners__slider swiper-partners">
-							<!-- Частина слайдера, що рухається -->
-							<div class="partners__wrapper swiper-wrapper">
-								<!-- Слайд -->
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
-								<div class="partners__slide swiper-slide">
-									<div class="partners__logo">
-										<picture><source srcset="img/partners/lidea.webp" type="image/webp"><img src="img/partners/lidea.png" alt="lidea"></picture>
-									</div>
-								</div>
+							<div class="plants-protecting__paginations paginations-plant">
+								<span class="paginations-plant__left-button"><i class="icon-arrow-down"></i></span>
+								<span class="paginations-plant__active">1</span>
+								<span>2</span>
+								<span>...</span>
+								<span>6</span>
+								<span>7</span>
+								<span class="paginations-plant__right-button"><i class="icon-arrow-down"></i></span>
 							</div>
-							<!-- Якщо потрібна пагінація -->
-							<div class="swiper-pagination"></div>
-							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
-							<button type="button" class="swiper-button-prev icon-arrow"></button>
-							<button type="button" class="swiper-button-next icon-arrow"></button>
-							<!-- Якщо потрібен скролбар -->
-							<div class="swiper-scrollbar"></div>
 						</div>
 					</div>
 				</div>
 			</section>
 			<section class="happy-farmer">
-				<picture class="happy-farmer__image-ibg"><picture><source srcset="img/happy-farmer.webp" type="image/webp"><img src="img/happy-farmer.jpg" alt="happy-farmer"></picture></picture>
+				<picture class="happy-farmer__image-ibg"><picture><source srcset="img/catalog/protecting-plant.webp" type="image/webp"><img src="img/catalog/protecting-plant.png" alt="happy-farmer"></picture></picture>
 				<div class="happy-farmer__container">
 					<div class="happy-farmer__wrap">
 						<div class="happy-farmer__title">
-							<h2><i class="icon-leaf-logo"></i> Семена</h2>
+							<h2><i class="icon-leaf-logo"></i> Засоби захисту рослин</h2>
 						</div>
-						<div class="happy-farmer__content">
-							<p>Вирощування овочів, квітів на своїй ділянці або просто на балконі -
-								це улюблене заняття багатьох дачників та городників. Звичайно, свіжі
-								овочі з власного городу натуральні, смачні та корисні. Але щоб
-								отримати хороший урожай томату або капусти, насолоджуватися
-								цвітінням петунії або троянди, важливо не тільки правильно доглядати
-								за рослинами. Все починається із вибору посівного матеріалу. І тут
-								постає питання: яке насіння вибрати? Адже вони мають бути якісними,
-								давати гарну схожість.</p>
-							<p>Предлагаем покупателям широкий выбор семян овощей. У нас вы можете
-								найти семена баклажан, разных видов капусты, бобовых и бахчевых
-								культур, томата, перца, огурцов, лука, салата, чеснока, картофеля от
-								отечественных и зарубежных производителей.</p>
-							<p>Также вы можете найти в нашем каталоге семена цветов: однолетних
-								(петуния, львиный зев, календула и т.д.), двулетних (виола, примула,
-								мальва), многолетних (иберис, анемона, гибискус, дельфиниум,
-								фрезия), луковичных (тюльпаны, лилия, ирис, нарциссы), комнатных
-								(гербера, бегония, кактус, мимоза, пасифлора). Конечно, это далеко
-								не весь список — каждая хозяйка найдет здесь свой любимый цветок.
-							</p>
-							<p>В широком ассортименте представлены саженцы плодовых деревьев, роз,
-								ягодных кустов. У нас вы можете купить семена газонной травы, а
-								также сопутствующие товары: удобрения, средства защиты,
-								биопрепараты, садовый инвентарь, субстраты, грунты, агроволокно,
-								горшки, кассеты для рассады.</p>
+						<div class="happy-farmer__content happy-farmer__max-height">
+							<p>Засоби захисту рослин поділяють на чотири основні види: механічні,
+								хімічні, біологічні та агротехнічні. Проте найраціональніше - це їх
+								одночасне, правильне поєднання. Найпоширеніший метод - це хімічний.
+								Існують тисячі різних видів препаратів хімічного захисту. Але не
+								варто їх плутати, а тим більше об′єднувати з хімічними добривами.
+								Методи їх впливу на рослини абсолютно протилежні. </p>
+							<p>Необхідно знати і розрізняти хімічні засоби захисту рослин. Адже ці
+								препарати мають суоро визначений об′єкт впливу (збудник хвороби,
+								комахи-шкідники, вид або родина бур′янів).</p>
+							<p>Отрутохімікати не терплять халатності. Це той тип препарату, який
+								недостатньо просто розвести у воді і обприскати ним рослини. Якщо
+								отрутохімікати неправильно застосувати, то вони можуть завдати шкоди
+								вам, корисним комахам, урожаю. </p>
 						</div>
-						<div class="happy-farmer__more-button"><span>Читать полностью</span><i class="icon-arrow-down"></i></div>
 					</div>
 				</div>
 			</section>
